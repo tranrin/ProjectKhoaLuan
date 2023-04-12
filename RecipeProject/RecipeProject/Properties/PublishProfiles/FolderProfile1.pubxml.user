@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\RecipePublish</_PublishTargetUrl>
+    <History>False|2023-04-08T14:58:03.9730266Z;True|2023-04-08T21:57:31.3558488+07:00;False|2023-04-08T21:57:10.8417534+07:00;False|2023-04-08T21:23:06.5100739+07:00;True|2023-04-08T21:11:09.7232862+07:00;True|2023-04-08T20:40:53.1731913+07:00;False|2023-04-08T20:39:58.9084881+07:00;False|2023-04-08T20:38:30.6979121+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

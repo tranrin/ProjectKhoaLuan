@@ -1,0 +1,17 @@
+E:\RecipeProject\Application\bin\Release\net5.0\Application.deps.json
+E:\RecipeProject\Application\bin\Release\net5.0\Application.dll
+E:\RecipeProject\Application\bin\Release\net5.0\Application.pdb
+E:\RecipeProject\Application\bin\Release\net5.0\Domain.dll
+E:\RecipeProject\Application\bin\Release\net5.0\Persistence.dll
+E:\RecipeProject\Application\bin\Release\net5.0\Domain.pdb
+E:\RecipeProject\Application\bin\Release\net5.0\Persistence.pdb
+E:\RecipeProject\Application\obj\Release\net5.0\Application.csproj.AssemblyReference.cache
+E:\RecipeProject\Application\obj\Release\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\RecipeProject\Application\obj\Release\net5.0\Application.AssemblyInfoInputs.cache
+E:\RecipeProject\Application\obj\Release\net5.0\Application.AssemblyInfo.cs
+E:\RecipeProject\Application\obj\Release\net5.0\Application.csproj.CoreCompileInputs.cache
+E:\RecipeProject\Application\obj\Release\net5.0\Application.csproj.CopyComplete
+E:\RecipeProject\Application\obj\Release\net5.0\Application.dll
+E:\RecipeProject\Application\obj\Release\net5.0\refint\Application.dll
+E:\RecipeProject\Application\obj\Release\net5.0\Application.pdb
+E:\RecipeProject\Application\obj\Release\net5.0\ref\Application.dll

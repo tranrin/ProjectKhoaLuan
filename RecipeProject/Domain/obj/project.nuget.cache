@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iaQrjad/W5yJ7Vdo1ObhUANXMLFgYpC30mrJTS+0Xm+pnWiQLg1gkordqwxbP+081sy1Za2NmNHFW9KPo9OECA==",
+  "success": true,
+  "projectFilePath": "E:\\RecipeProject\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trann\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
