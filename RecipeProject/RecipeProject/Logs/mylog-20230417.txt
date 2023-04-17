@@ -1,0 +1,225 @@
+2023-04-17T05:12:08.5111269+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T05:12:08.5165372+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T05:12:08.5167908+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T05:58:12.4439827+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T05:58:12.4496256+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T05:58:12.4498591+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T06:01:46.7657557+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T06:01:46.7732520+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T06:01:46.7739936+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:22:55.5608122+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:22:55.5686692+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:22:55.5689051+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:25:14.9380274+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:25:14.9471868+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:25:14.9475619+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:25:37.1604851+07:00 8000000b-0002-fc00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29
+2023-04-17T07:26:06.5015829+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:26:06.5088982+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:26:06.5090740+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:26:13.9461277+07:00 80000013-0000-fb00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29
+2023-04-17T07:31:18.0011964+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:31:18.0091169+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:31:18.0094269+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:31:40.2620187+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:31:40.2717086+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:31:40.2719062+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:32:13.8205429+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:32:13.8281631+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:32:13.8283677+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:33:56.2313009+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:33:56.2451436+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:33:56.2453566+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:35:08.5944428+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:35:08.6053334+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:35:08.6058391+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:35:16.5030619+07:00 80000043-0001-f600-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct, Int32 idcongthuc) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29
+2023-04-17T07:36:16.8187757+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:36:16.8273086+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:36:16.8275590+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:42:40.8909756+07:00 8000000b-0003-fe00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct, Int32 idcongthuc) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29
+2023-04-17T07:46:04.1382863+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:46:04.1606211+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:46:04.1610794+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:46:19.3360546+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:46:19.3445214+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:46:19.3447899+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:46:27.4789906+07:00 8000000d-0003-fe00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct, Int32 idcongthuc) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29
+2023-04-17T07:50:33.2003096+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:50:33.2096470+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:50:33.2098744+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:50:39.4057900+07:00 80000008-0001-f400-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct, Int32 idcongthuc) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29
+2023-04-17T07:53:40.3128187+07:00 80000019-0003-ff00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct, Int32 idcongthuc) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29
+2023-04-17T07:54:36.7115334+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:54:36.7191034+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:54:36.7193290+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T07:54:43.9165011+07:00 8000000c-0002-fb00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct, Int32 idcongthuc) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29
+2023-04-17T07:59:37.5599256+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T07:59:37.5681346+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T07:59:37.5684045+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T08:04:45.3102749+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-17T08:04:45.3173228+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-17T08:04:45.3175419+07:00  [INF] Content root path: "D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject" (b5d60022)
+2023-04-17T08:04:51.4344336+07:00 80000029-0000-fb00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RecipeProject.Controllers.BuocNauController.BuocNauGet(CancellationToken ct, Int32 idcongthuc) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Controllers\BuocNauController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RecipeProject.Middleware.ExceptionMiddleWare.InvokeAsync(HttpContext context) in D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\Middleware\ExceptionMiddleware.cs:line 29

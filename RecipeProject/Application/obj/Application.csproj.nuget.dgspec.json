@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\RecipeProject\\Application\\Application.csproj": {}
+    "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Application\\Application.csproj": {}
   },
   "projects": {
-    "E:\\RecipeProject\\Application\\Application.csproj": {
+    "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RecipeProject\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\RecipeProject\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\trann\\.nuget\\packages\\",
-        "outputPath": "E:\\RecipeProject\\Application\\obj\\",
+        "projectPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\RecipeProject\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\RecipeProject\\Domain\\Domain.csproj"
+              "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj"
               },
-              "E:\\RecipeProject\\Persistence\\Persistence.csproj": {
-                "projectPath": "E:\\RecipeProject\\Persistence\\Persistence.csproj"
+              "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -78,8 +78,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -88,21 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\RecipeProject\\Domain\\Domain.csproj": {
+    "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RecipeProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\RecipeProject\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\trann\\.nuget\\packages\\",
-        "outputPath": "E:\\RecipeProject\\Domain\\obj\\",
+        "projectPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -139,8 +138,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -149,21 +147,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\RecipeProject\\Persistence\\Persistence.csproj": {
+    "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RecipeProject\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "E:\\RecipeProject\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\trann\\.nuget\\packages\\",
-        "outputPath": "E:\\RecipeProject\\Persistence\\obj\\",
+        "projectPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,8 +175,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\RecipeProject\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\RecipeProject\\Domain\\Domain.csproj"
+              "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -214,8 +212,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -224,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

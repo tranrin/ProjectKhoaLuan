@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iaQrjad/W5yJ7Vdo1ObhUANXMLFgYpC30mrJTS+0Xm+pnWiQLg1gkordqwxbP+081sy1Za2NmNHFW9KPo9OECA==",
+  "dgSpecHash": "SK0XidOiXZDbi8zkbLx539dPwfAILlSVj217EjZgSZD4upN6a7QcqgGp+3g9R2hYzo39NVGXN2uov2YmKE1xdQ==",
   "success": true,
-  "projectFilePath": "E:\\RecipeProject\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\trann\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512"
   ],
   "logs": []
 }

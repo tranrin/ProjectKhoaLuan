@@ -95,3 +95,13 @@ E:\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.genruntimeconfig
 E:\RecipeProject\RecipeProject\obj\Release\net5.0\ref\RecipeProject.dll
 E:\RecipeProject\RecipeProject\bin\Release\net5.0\FluentValidation.AspNetCore.dll
 E:\RecipeProject\RecipeProject\bin\Release\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.csproj.AssemblyReference.cache
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.AssemblyInfoInputs.cache
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.AssemblyInfo.cs
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.csproj.CoreCompileInputs.cache
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\ref\RecipeProject.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\RecipeProject\obj\Release\net5.0\RecipeProject.pdb

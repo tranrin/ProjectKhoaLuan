@@ -5,14 +5,10 @@
       "FluentValidation/11.2.1": {
         "type": "package",
         "compile": {
-          "lib/net5.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/FluentValidation.dll": {}
         },
         "runtime": {
-          "lib/net5.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/FluentValidation.dll": {}
         }
       }
     }
@@ -46,19 +42,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\trann\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\RecipeProject\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\RecipeProject\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\trann\\.nuget\\packages\\",
-      "outputPath": "E:\\RecipeProject\\Domain\\obj\\",
+      "projectPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\ASP.NET\\RinKhoaLuan1\\RecipeProject\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\trann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -95,8 +91,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -105,7 +100,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

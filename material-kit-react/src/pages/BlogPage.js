@@ -1,11 +1,13 @@
 import { Helmet } from 'react-helmet-async';
 // @mui
+import { Link } from 'react-router-dom';
 import { Grid, Button, Container, Stack, Typography } from '@mui/material';
 // components
 import Iconify from '../components/iconify';
 import { BlogPostCard, BlogPostsSort, BlogPostsSearch } from '../sections/@dashboard/blog';
 // mock
 import POSTS from '../_mock/blog';
+
 
 // ----------------------------------------------------------------------
 
@@ -29,8 +31,10 @@ export default function BlogPage() {
           <Typography variant="h4" gutterBottom>
             Blog
           </Typography>
-          <Button variant="contained" href='/dashboard/addblog' startIcon={<Iconify icon="eva:plus-fill" />}>
-            New Post
+          <Button variant="contained" 
+          // href='/dashboard/addblog' 
+          startIcon={<Iconify icon="eva:plus-fill" />}>
+            <Link style={{textDecoration:'none', color:'#fff'}} to={'/dashboard/addblog'}>New Add</Link>
           </Button>
         </Stack>
 

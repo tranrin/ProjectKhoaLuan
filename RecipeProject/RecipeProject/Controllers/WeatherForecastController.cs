@@ -16,7 +16,7 @@ namespace RecipeProject.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing","check","check12"
+            "Freezing","check","check12","zaloaloo"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
