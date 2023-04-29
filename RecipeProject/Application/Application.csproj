@@ -44,7 +44,6 @@
   <ItemGroup>
     <Folder Include="bin\Debug\net5.0\ref\" />
     <Folder Include="bin\Release\net5.0\ref\" />
-    <Folder Include="CongThuc\" />
     <Folder Include="User\" />
   </ItemGroup>
 

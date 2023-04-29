@@ -16,6 +16,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentValidation.AspNetCore;
+using Application;
 
 namespace RecipeProject
 {
@@ -32,14 +33,15 @@ namespace RecipeProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddApplication();
             services.AddDbContext<DataContext>(option =>
             {
                 option.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
             });
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
             services.AddControllers();
-            services.AddControllersWithViews().AddFluentValidation(config =>
-            { });
+            //services.AddControllersWithViews().AddFluentValidation(config =>
+            //{ });
                 services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RecipeProject", Version = "v1" });
@@ -57,7 +59,7 @@ namespace RecipeProject
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
-      
+       
             if (env.IsDevelopment() || env.IsProduction())
             {
                 app.UseDeveloperExceptionPage();

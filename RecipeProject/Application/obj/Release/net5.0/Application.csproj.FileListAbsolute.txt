@@ -15,6 +15,11 @@ E:\RecipeProject\Application\obj\Release\net5.0\Application.dll
 E:\RecipeProject\Application\obj\Release\net5.0\refint\Application.dll
 E:\RecipeProject\Application\obj\Release\net5.0\Application.pdb
 E:\RecipeProject\Application\obj\Release\net5.0\ref\Application.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.csproj.AssemblyReference.cache
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.AssemblyInfoInputs.cache
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.AssemblyInfo.cs
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.csproj.CoreCompileInputs.cache
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\bin\Release\net5.0\Application.deps.json
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\bin\Release\net5.0\Application.dll
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\bin\Release\net5.0\ref\Application.dll
@@ -23,12 +28,7 @@ D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\bin\Release\net5.0\Domain.dll
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\bin\Release\net5.0\Persistence.dll
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\bin\Release\net5.0\Domain.pdb
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\bin\Release\net5.0\Persistence.pdb
-D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
-D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.AssemblyInfoInputs.cache
-D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.AssemblyInfo.cs
-D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.csproj.CoreCompileInputs.cache
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.csproj.CopyComplete
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.dll
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\ref\Application.dll
 D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.pdb
-D:\ASP.NET\RinKhoaLuan1\RecipeProject\Application\obj\Release\net5.0\Application.csproj.AssemblyReference.cache

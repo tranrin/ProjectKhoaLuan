@@ -12,5 +12,6 @@ namespace Domain
         public string TenNguyenLieu { get; set; }
         public int SoLuong { get; set; }
         public string DonVi { get; set; }
+        public int CongThucID { get; set; }
     }
 }

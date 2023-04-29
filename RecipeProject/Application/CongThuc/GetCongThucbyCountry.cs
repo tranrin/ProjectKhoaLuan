@@ -12,11 +12,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Application.BuocNau
+namespace Application.CongThuc
 {
-    public class BuocNauGet
+    public class GetCongThucbyCountry
     {
-        public class Query : IRequest<Result<List<Table_BuocNau>>>
+        public class Query : IRequest<Result<List<CongThuc_Img>>>
         {// su li tham so dau vao
             public int infor { get; set; }
         }
@@ -24,10 +24,10 @@ namespace Application.BuocNau
         {
             public CommandValidator()
             {
-                RuleFor(x => x).NotEmpty().NotNull(); 
+                RuleFor(x => x).NotEmpty().NotNull();
             }
         }
-        public class Handler : IRequestHandler<Query, Result<List<Table_BuocNau>>>
+        public class Handler : IRequestHandler<Query, Result<List<CongThuc_Img>>>
         {
             private readonly IConfiguration _configuration;
             public Handler(IConfiguration configuration)
@@ -35,16 +35,16 @@ namespace Application.BuocNau
                 _configuration = configuration;
             }
 
-            public async Task<Result<List<Table_BuocNau>>> Handle(Query request, CancellationToken cancellationToken)
+            public async Task<Result<List<CongThuc_Img>>> Handle(Query request, CancellationToken cancellationToken)
             {
-                string spName = "USP_DSBuocNauGets";
+                string spName = "USP_GetCongThucByCountry";
                 DynamicParameters parameters = new DynamicParameters();
-                parameters.Add("@IDCongThuc", request.infor);
+                parameters.Add("@IDCountry", request.infor);
                 using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
                 {
                     connection.Open();
-                    var result = await connection.QueryAsync<Table_BuocNau>(new CommandDefinition(spName,parameters, commandType: System.Data.CommandType.StoredProcedure));
-                    return Result<List<Table_BuocNau>>.Success(result.ToList());// compare of list  
+                    var result = await connection.QueryAsync<CongThuc_Img>(new CommandDefinition(spName, parameters, commandType: System.Data.CommandType.StoredProcedure));
+                    return Result<List<CongThuc_Img>>.Success(result.ToList());// compare of list  
                 }
             }
         }

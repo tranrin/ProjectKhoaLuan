@@ -10,3 +10,15 @@ E:\RecipeProject\Domain\obj\Release\net5.0\Domain.dll
 E:\RecipeProject\Domain\obj\Release\net5.0\refint\Domain.dll
 E:\RecipeProject\Domain\obj\Release\net5.0\Domain.pdb
 E:\RecipeProject\Domain\obj\Release\net5.0\ref\Domain.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\bin\Release\net5.0\Domain.deps.json
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\bin\Release\net5.0\Domain.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\bin\Release\net5.0\ref\Domain.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\bin\Release\net5.0\Domain.pdb
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\obj\Release\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\obj\Release\net5.0\Domain.AssemblyInfoInputs.cache
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\obj\Release\net5.0\Domain.AssemblyInfo.cs
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\obj\Release\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\obj\Release\net5.0\Domain.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\obj\Release\net5.0\ref\Domain.dll
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\obj\Release\net5.0\Domain.pdb
+D:\ASP.NET\RinKhoaLuan1\RecipeProject\Domain\obj\Release\net5.0\Domain.csproj.AssemblyReference.cache

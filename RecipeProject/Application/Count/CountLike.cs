@@ -1,4 +1,4 @@
-﻿using Application.Core;
+﻿/*using Application.Core;
 using Dapper;
 using Domain;
 using FluentValidation;
@@ -12,11 +12,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Application.BuocNau
+namespace Application.Count
 {
-    public class BuocNauGet
+    public class CountLike
     {
-        public class Query : IRequest<Result<List<Table_BuocNau>>>
+        public class Query : IRequest<Result<int>>
         {// su li tham so dau vao
             public int infor { get; set; }
         }
@@ -24,10 +24,10 @@ namespace Application.BuocNau
         {
             public CommandValidator()
             {
-                RuleFor(x => x).NotEmpty().NotNull(); 
+                RuleFor(x => x).NotEmpty().NotNull();
             }
         }
-        public class Handler : IRequestHandler<Query, Result<List<Table_BuocNau>>>
+        public class Handler : IRequestHandler<Query, Result<int>>>
         {
             private readonly IConfiguration _configuration;
             public Handler(IConfiguration configuration)
@@ -35,18 +35,19 @@ namespace Application.BuocNau
                 _configuration = configuration;
             }
 
-            public async Task<Result<List<Table_BuocNau>>> Handle(Query request, CancellationToken cancellationToken)
+            public async Task<Result<int>> Handle(Query request, CancellationToken cancellationToken)
             {
-                string spName = "USP_DSBuocNauGets";
+                string spName = "[USP_CountLuotThichCongThuc]";
                 DynamicParameters parameters = new DynamicParameters();
-                parameters.Add("@IDCongThuc", request.infor);
+                parameters.Add("@IDcongthuc", request.infor);
                 using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
                 {
                     connection.Open();
-                    var result = await connection.QueryAsync<Table_BuocNau>(new CommandDefinition(spName,parameters, commandType: System.Data.CommandType.StoredProcedure));
-                    return Result<List<Table_BuocNau>>.Success(result.ToList());// compare of list  
+                    var result = await connection.QueryAsync<int>(new CommandDefinition(spName, parameters, commandType: System.Data.CommandType.StoredProcedure));
+                    return Result<int>.Success(result);// compare of list  
                 }
             }
         }
     }
 }
+*/

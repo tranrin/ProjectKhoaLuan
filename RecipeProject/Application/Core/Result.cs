@@ -15,5 +15,10 @@ namespace Application.Core
 
         public static Result<T> Success(T value) => new Result<T> { IsSuccess = true, Value = value };
         public static Result<T> Failure(string error) => new Result<T> { IsSuccess = false, Error = error };
+
+        internal static Result<int> Success(IEnumerable<int> result)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
